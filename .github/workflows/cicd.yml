@@ -28,7 +28,7 @@ jobs:
   deployment:
     needs: build
     runs-on: ubuntu-latest
-    environment: PROD
+    environment: test
     steps:
     - name: List files in the repository
       run: |
